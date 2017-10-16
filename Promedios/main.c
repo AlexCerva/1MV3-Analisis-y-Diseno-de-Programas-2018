@@ -9,10 +9,13 @@ int main(int argc, char *argv[])
   float B[]={0,0,0,0,0,0,0,0,0,0};
   float p=0,antp=0;
   
-  printf("\t\t\t\tDatos:\n");
+  printf("\t\t\t\tPromedios\n");
+  printf("Ingrese diez datos para ser promediados.\n");
+  printf("Cada dato se ordenara en un arreglo mayor o menor al valor del promedio.\n\n");
   
   for(i=0;i<tam;i++){
-        printf("%.g\t",dat[i]);
+        printf("\nDato %d: ",i+1);
+        scanf("%f",&dat[i]);
   }
   
   for(i=0;i<tam;i++){
