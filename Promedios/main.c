@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
   int i,tam=10;
-  float dat[10]={6,9,3,1,2,4,7,5,8,10};
+  float dat[10]={};
   float A[]={0,0,0,0,0,0,0,0,0,0};
   float B[]={0,0,0,0,0,0,0,0,0,0};
   float p=0,antp=0;
